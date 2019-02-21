@@ -68,9 +68,9 @@ class Owner
   
   
   def sell_pets
-   @pets.each do |type, pets|
-     
-   end
+    @pets.each do |type, pets|
+      pets = []
+    end
   end
   
 end
