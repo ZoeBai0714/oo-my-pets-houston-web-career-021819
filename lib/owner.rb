@@ -69,11 +69,7 @@ class Owner
   
   def sell_pets
    @pets.each do |type, pets|
-     if pets.length == 0
-       return true
-     else
-       return false
-     end
+     pets.empty?
    end
   end
   
