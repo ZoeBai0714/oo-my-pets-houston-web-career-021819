@@ -1,3 +1,4 @@
+require 'pry'
 class Owner
   # code goes here
   
@@ -70,6 +71,7 @@ class Owner
   def sell_pets
     @pets.each do |type, pets|
       pets = []
+      binding.pry
     end
     
     @pets[:dogs].each do |dog|
