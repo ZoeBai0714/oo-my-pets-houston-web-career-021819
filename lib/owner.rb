@@ -68,8 +68,7 @@ class Owner
   
   
   def sell_pets
-    pets.all? do |type, pets|
-      pets.length == 0
-    end
+   @pets.
   end
+  
 end
