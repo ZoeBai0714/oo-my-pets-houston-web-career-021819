@@ -69,10 +69,6 @@ class Owner
   
   
   def sell_pets
-    @pets.each do |type, pets|
-      pets = []
-      binding.pry
-    end
   
     @pets[:dogs].each do |dog|
       dog.mood = "nervous"
@@ -84,6 +80,11 @@ class Owner
     
     @pets[:fishes].each do |fish|
       fish.mood = "nervous"
+    end
+    
+    @pets.each do |type, pets|
+      pets = []
+      binding.pry
     end
   end
   
