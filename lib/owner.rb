@@ -69,7 +69,7 @@ class Owner
   
   def sell_pets
    @pets.each do |type, pets|
-     pets.empty?
+     
    end
   end
   
