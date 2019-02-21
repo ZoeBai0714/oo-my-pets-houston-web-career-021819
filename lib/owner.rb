@@ -83,7 +83,7 @@ class Owner
     end
     
     @pets.each do |type, pets|
-      @pets[pets] = []
+      @pets[type] = []
     end
   end
   
